@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/lios/static/css/main.5194f6b7.css",
-    "main.js": "/lios/static/js/main.ccfecbc1.js",
+    "main.js": "/lios/static/js/main.ef669413.js",
     "static/media/fonresultat.jpg": "/lios/static/media/fonresultat.b064071e590023d1bdd1.jpg",
     "static/media/fonmenu.jpg": "/lios/static/media/fonmenu.5523a626217e6931ee14.jpg",
     "index.html": "/lios/index.html",
     "main.5194f6b7.css.map": "/lios/static/css/main.5194f6b7.css.map",
-    "main.ccfecbc1.js.map": "/lios/static/js/main.ccfecbc1.js.map"
+    "main.ef669413.js.map": "/lios/static/js/main.ef669413.js.map"
   },
   "entrypoints": [
     "static/css/main.5194f6b7.css",
-    "static/js/main.ccfecbc1.js"
+    "static/js/main.ef669413.js"
   ]
 }
