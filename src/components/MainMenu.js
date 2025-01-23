@@ -10,8 +10,8 @@ function MainMenu() {
   };
 
   const items = [
-    { name: 'Бобовка', image: './images/bb.png' },
-    { name: 'Динамит', image: '/images/tnt.png' },
+    { name: 'Бобовка', imagePath: '/images/bb.png' },
+    { name: 'Динамит', imagePath: '/images/tnt.png' },
     { name: 'Военная С4', image: '/images/c4.png' },
     { name: 'Гексоген', image: '/images/geks.png' },
     { name: 'Простая ракета', image: '/images/simplerocket.png' },
@@ -27,7 +27,7 @@ function MainMenu() {
       <div className="items-container">
         {items.map((item) => (
           <div key={item.name} className="item" onClick={() => handleSelection(item.name)}>
-            <img src={item.image} alt={item.name} />
+            <img src={item.imagePath} alt={item.name} />
             <p>{item.name}</p>
           </div>
         ))}
