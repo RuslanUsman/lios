@@ -13,12 +13,12 @@ function MainMenu() {
     { name: 'Бобовка', image: './images/bb.png' },
     { name: 'Динамит', image: './images/tnt.png' },
     { name: 'Военная С4', image: './images/c4.png' },
-    { name: 'Гексоген', image: '/images/geks.png' },
-    { name: 'Простая ракета', image: '/images/simplerocket.png' },
-    { name: 'Ракета', image: '/images/rocket.png' },
-    { name: 'Граната', image: '/images/granade.png' },
-    { name: 'Граната из сплава', image: '/images/granadewith.png' },
-    { name: 'Ракета РСЗО', image: '/images/rocketrszo.png' }
+    { name: 'Гексоген', image: './images/geks.png' },
+    { name: 'Простая ракета', image: './images/simplerocket.png' },
+    { name: 'Ракета', image: './images/rocket.png' },
+    { name: 'Граната', image: './images/granade.png' },
+    { name: 'Граната из сплава', image: './images/granadewith.png' },
+    { name: 'Ракета РСЗО', image: './images/rocketrszo.png' }
   ];
 
   return (

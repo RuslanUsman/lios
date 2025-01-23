@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-image: url('/public/images/fonresultat.jpg'); /* Убедитесь, что изображение находится в папке public/images */
+  background-image: url('./public/images/fonresultat.jpg'); /* Убедитесь, что изображение находится в папке public/images */
   background-size: cover; /* Масштабируем изображение, чтобы оно покрывало весь экран */
   background-position: center; /* Центрируем изображение */
 }
