@@ -10,7 +10,7 @@ function MainMenu() {
   };
 
   const items = [
-    { name: 'Бобовка', image: '/images/bb.png' },
+    { name: 'Бобовка', image: '/lios/images/bb.png' },
     { name: 'Динамит', image: '/images/tnt.png' },
     { name: 'Военная С4', image: '/images/c4.png' },
     { name: 'Гексоген', image: '/images/geks.png' },
