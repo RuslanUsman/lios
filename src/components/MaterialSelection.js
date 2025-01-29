@@ -12,12 +12,12 @@ function MaterialSelection() {
   };
 
   const materials = [
-    { name: 'Дерево', image: './images/wood.jpg' },
-    { name: 'Камень', image: './images/stone.jpg' },
-    { name: 'Железо', image: './images/metall.png' },
-    { name: 'Отличное железо', image: './images/steal.png' },
-    { name: 'Титан', image: './images/titanium.png' },
-    { name: 'Объекты', image: './images/object.png' }
+    { name: 'Дерево', image: '/images/wood.jpg' },
+    { name: 'Камень', image: '/images/stone.jpg' },
+    { name: 'Железо', image: '/images/metall.png' },
+    { name: 'Отличное железо', image: '/images/steal.png' },
+    { name: 'Титан', image: '/images/titanium.png' },
+    { name: 'Объекты', image: '/images/object.png' }
   ];
 
   return (

@@ -1,23 +1,25 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import MainMenu from './components/MainMenu';
-import MaterialSelection from './components/MaterialSelection';
 import ConstructionSelection from './components/ConstructionSelection';
+import MaterialSelection from './components/MaterialSelection';
 import Result from './components/Result';
-import './App.css';
 
 function App() {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<MainMenu />} />
-        <Route path="/materials" element={<MaterialSelection />} />
-        <Route path="/construction" element={<ConstructionSelection />} />
-        <Route path="/result" element={<Result />} />
-      </Routes>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<MainMenu />} />
+          <Route path="/construction" element={<ConstructionSelection />} />
+          <Route path="/materials" element={<MaterialSelection />} />
+          <Route path="/result" element={<Result />} />
+        </Routes>
+      </div>
     </Router>
   );
 }
 
 export default App;
+
 

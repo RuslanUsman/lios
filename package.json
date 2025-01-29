@@ -4,6 +4,7 @@
   "homepage": "https://ruslanusman.github.io/lios",
   "private": true,
   "dependencies": {
+    "@tma.js/sdk": "^2.7.0",
     "cra-template": "1.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
@@ -16,7 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "react-scripts start"
   },
   "eslintConfig": {
     "extends": [
